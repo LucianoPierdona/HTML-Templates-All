@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+    background-image: linear-gradient(90deg, #0aa2e9, #0678e2);
+}
+header {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+.banner {
+    text-align: center;
+}
+.banner h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+    transition: 0.4s;
+    text-transform: uppercase;
+    cursor: default;
+}
+.banner h1:hover {
+    letter-spacing: 2px;
+    color: #000;
+}
+.links {
+    width: 100%;
+}
+.links ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.links ul li {
+    margin: 0 25px;
+    padding: 2px 5px;
+}
+.links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.links ul li a:hover {
+    color: #000;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+.header {
+    width: 100%;
+    display: flex;
+}
+.message {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: 100px 55px;
+}
+.message h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 35px;
+}
+.message p {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+.image-header {
+    width: 66%;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+.about {
+    text-align: center;
+    margin-top: 10%;
+    justify-content: center;
+}
+.about h1 {
+    font-size: 60px;
+    color: #fff;
+    margin: 100px;
+}
+.msg-image {
+    display: flex;
+}
+.msg-image p {
+    text-align: center;    
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    width: 40%;
+    margin-top: 120px;
+    margin-left: 45px;
+}
+.image-about {
+    width: 50%;
+}
+.message-services-header {
+    text-align: center;
+    margin-top: 10%;
+    justify-content: center;
+}
+.message-services-header h2 {
+    font-size: 60px;
+    color: #fff;
+    margin: 100px;
+}
+.message-services {
+    display: flex;
+}
+.message-services p {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    width: 40%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.message-services img {
+    margin-left: 7%;
+}
+.contact-all {
+    margin-left: 15%;
+    display: flex;
+    width: 70%;
+    background: #000;
+    border-radius: 0 8px 8px 0;
+}
+.grid-items {
+    display: flex;
+    margin-left: 15px;
+}
+.grid-items i {
+    margin-top: 20px;
+}
+.grid-items p {
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+}
+.grid-items .i-2 {
+    margin-top: 38px;
+}
+.whats {
+    margin-top: 80px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+}
+.whats p {
+    font-size: 35px;
+    font-weight: 700;
+}
+.whats a {
+    text-decoration: none;
+    background: linear-gradient(50deg, #319923, #00f100);
+    color: #fff;
+    font-size: 25px;
+    padding: 25px 60px;
+    border-radius: 8px;
+    margin-right: 10%;
+    font-weight: 900;
+    transition: 0.2s;
+}
+.whats a:hover {
+    border-radius: 15px;
+    background: linear-gradient(90deg, #00f100, #089b08);
+}
+#partners p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.grid-partners {
+    width: 90%;
+    margin: 120px auto 240px auto;
+    justify-content: space-between;
+}
+.grid-partners img {
+    margin: 0 30px;
+}
+footer {
+    width: 99.55%;
+    text-align: center;
+    background: linear-gradient(90deg, #fff, #dcdcdf);
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+footer p {
+    font-weight: 700;
+}
+footer p a {
+    text-decoration: none;
+    color: #000;
+}
+@media (max-width: 500px) {
+    .links {
+        display: none;
+    }
+    .image-header {
+        display: none;
+    }
+    .header {
+        text-align: center;
+    }
+    .header {
+        width: 100%;
+        justify-content: center;
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    .message {
+        width: 100%;
+        margin: 50px 0;
+    }
+    .about h1{
+        margin: 100px 0;
+    }
+    .msg-image {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .msg-image img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+    .msg-image p {
+        margin: 120px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .image-about {
+        width: 100%;
+    }
+    .message-services-header h2 {
+        margin: 100px 0;
+    }
+    .message-services {
+        display: block;
+    }
+    .message-services p {
+        width: 100%;
+        margin-left: 0;
+    }
+    .message-services img {
+        width: 120%;
+        margin: 0;
+        height: auto;
+        margin-top: 70px;
+    }
+    .contact-all {
+        display: block;
+        margin: 0;
+        width: 100%;
+        border-radius: 8px;
+    }
+    iframe {
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .whats {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding:  60px 0;
+    }
+    .whats p {
+        margin-bottom: 75px;
+    }
+    .whats a {
+        margin: 0;
+    }
+    .grid-partners {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .grid-partners a img {
+        margin: 25px 0;
+    }
+}
