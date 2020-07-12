@@ -1,0 +1,293 @@
+* {
+    background-color: #111;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+header {
+    padding-top: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.title-banner {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-left: 50px;
+}
+.title-banner p {
+    margin: 0;
+}
+.title-links {
+    margin-top: 9px;
+    justify-content: center;
+}
+.title-links ul {
+    display: flex;
+    margin: 0 50px 0 0;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.title-links ul li {
+    padding: 0 10px;
+}
+.title-links ul li a {
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 17px;
+}
+.title-links ul li a:hover {
+    color: #5c5656;
+}
+.banner {
+    width: 100%;
+}
+.banner-message {
+    padding: 250px;
+    text-align: center;
+}
+.banner-message h1 {
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.banner-message p {
+    padding: 0 90px;
+    font-size: 20px;
+}
+#about_us {
+    padding-top: 50px;
+    padding-bottom: 300px;
+    width: 100%;
+    text-align: center;
+}
+.about_us_message {
+    width: 100%;
+    text-align: center;
+}
+.about_us_message h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.about_us_message p {
+    padding: 0 250px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+#our_services {
+    display: flex;
+}
+.our_services_img {
+    width: 50%;
+}
+.our_services_img img {
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+}
+.our_services_message {
+    width: 50%;
+    text-align: center;
+    margin-top: 200px;
+    padding: 0 50px;
+}
+.our_services_message h2 {
+    font-weight: bold;
+    font-size: 45px;                                                                                                                                                                                           
+}
+.our_services_message p {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.our_services_message a {
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    padding: 15px 25px;
+    transition: 0.2s;
+}
+.our_services_message a:hover {
+    background: #fff;
+    color: #000;
+}
+#contact_header {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 150px 0;
+    font-weight: bold;
+}
+#contact_us {
+    display: flex;
+    width: 100%;
+    margin-bottom: 250px;
+}
+.contact_us_img {
+    width: 50%;
+    margin-right: 25px;
+}
+.contact_us_img img {
+    width: 100%;
+    height: 800px;
+    border-radius: 12px;
+}
+.form_group {
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.form_group h1 {
+    width: 100%;
+    text-align: center;
+}
+.form_group form {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.form_group form input {
+    background: #fff;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    padding: 25px;
+    border: 2px solid #fff;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.form_group form input:focus {
+    outline: 0;
+    color: #fff;
+    border: 2px solid #fff;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 15px;
+}
+.form_group form input[name="texto"] {
+    padding: 0px;
+    height: 100px;
+}
+.form_group a {
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    padding: 15px 25px;
+    transition: 0.2s;
+}
+.form_group a:hover {
+    background: #fff;
+    color: #000;
+}
+.copyright {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 105px;
+    font-size: 20px;
+}
+.copyright a {
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+#scrollPath {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: rgba(255, 255, 255,0.5);
+}
+#progressbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0%,100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+#progressbar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(10px);
+}
+#progressbar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(30px);
+}
+@media (max-width: 700px) {
+    header {display: block;}
+    .title-banner {
+        margin-left: 0; 
+        font-size: 35px;
+    }
+    .title-links {
+        width: 100%;
+        text-align: center;
+    }
+    .title-links ul {
+        padding: 0;
+        margin-right: 0;
+        margin-top: 25px;
+    }
+    .banner-message {
+        margin-top: 150px;
+        padding: 0;
+        width: 100%;
+    }
+    .banner-message p {padding: 0 10px;}
+    #about_us {padding-top: 150px;}
+    .about_us_message p {padding: 0 10px;}
+    #our_services {display: block;}
+    .our_services_img {width: 100%;}
+    .our_services_img img {height: auto;}
+    .our_services_message {
+        width: 100%; 
+        padding: 0;
+        margin-top: 50px;
+    }
+    .our_services_message p {padding: 0;}
+    #contact_header {padding: 150px 0 50px 0;}
+    #contact_us {display: block;}
+    .form_group {width: 100%;}
+    .form_group form h1 {font-size: 40px;}
+    .contact_us_img {width: 100%;}
+    .contact_us_img img {height: 500px;}
+}
