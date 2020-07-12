@@ -1,0 +1,333 @@
+/* 
+    fonte
+    font-family: 'Alegreya Sans SC', sans-serif;
+*/
+* {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: #f0f0f5;
+}
+#first-page {
+    width:100%;
+    margin: 0 auto;
+    background-color: #f0f0f5;
+}
+header { 
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+}
+header h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #000;
+    transition: 0.2s;
+}
+header h3:hover {
+    color: #1cf152;
+}
+.principal {
+    border-top: 1px solid;
+    background: url(/img/undraw_at_home_octe.svg) no-repeat;
+    height: 100vh;
+    background-position: 45vw 15vh;
+    text-align: left;
+}
+.principal h1 {
+    text-align: center;
+    margin-top: 250px;
+    width: 50%;
+    font-size: 40px;
+    color: #0c000e;
+}
+.principal p {
+    margin-left: 30px;
+    text-align: center;
+    width: 47%;
+    font-size: 20px;
+}
+.button {
+    margin-left: 190px;
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.button a {
+    font-size: 25px;
+    align-items: center;
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #1cf152;
+    transition: 0.4s;
+    color: #fff;
+    text-decoration: none;
+}
+.button a:hover {
+    background-color: #0e9524;
+}
+.button a strong {
+    background-color: transparent;
+    flex: 1;
+    text-align: center;
+}
+.our_services {
+    display: flex;
+}
+.truck_message {
+    width: 50%;
+    text-align: center;
+    margin-top: 45px;
+}
+.truck-img {
+    width: 50%;
+    height: auto;
+}
+.truck-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.truck_message h2 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 45px;
+    color: #24022a;
+}
+.truck_message p {
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    width: 45%;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 10%;
+}
+.title {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    color: #24022a;
+    margin: 200px;
+}
+.our_services_2 {
+    display: flex;
+}
+.money-message {
+    width: 50%;
+    text-align: center;
+    margin-top: 45px;
+}
+.money-img {
+    width: 50%;
+    height: auto;
+}
+.money-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.money-message h2 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 45px;
+    color: #24022a;
+}
+.money-message p {
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    width: 45%;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 10%;
+}
+.our_services_3 {
+    display: flex;
+}
+.trash-message {
+    width: 50%;
+    text-align: center;
+    margin-top: 45px;
+}
+.trash-img {
+    width: 50%;
+    height: auto;
+}
+.trash-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.trash-message h2 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 45px;
+    color: #24022a;
+}
+.trash-message p {
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    width: 45%;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 10%;
+}
+form {
+    background-color: #fff;
+    margin: 80px auto;
+    padding: 64px;
+    border-radius: 15px;
+    max-width: 730px;
+    box-sizing: border-box;
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+}
+form input {
+    margin: 25px;
+    background-color: #f0f0f5;
+    border: 0;
+    border-radius: 15px;
+    height: 65px;
+    transition: 0.4s;
+    outline: none;
+}
+
+form button {
+    width: 260px;
+    height: 56px;
+    background-color: #34cb79;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    margin-top: 40px;
+    transition: 0.4s;
+    cursor: pointer;
+    margin-left: 150px;
+}
+form button:hover {
+    background-color: #2fb86e;
+}
+form input:focus {
+    border: 0;
+    background-color: #ffffff;
+}
+form input {
+    padding-left: 25px;
+    font-size: 20px;
+}
+.contact {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.copy {
+    width: 100%;
+    background-color: #fff;
+    height: 25px;
+    border-radius: 8px;
+}
+.copy p {
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 5px;
+}
+.copy p a {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+}
+.phone_message {
+    display: none;
+}
+@media (max-width: 800px) {
+    .principal h1 {
+        text-align: center;
+        width: 100%;
+    }
+    .principal p {
+        text-align: center;
+        width: 90%;
+    }
+    .principal {
+        height: 700px;
+        background: none;
+    }
+    .button {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .title {
+        text-align: center;
+        margin: 40% 0;
+    }
+    .our_services {
+        display: inline-block;
+    }
+    .truck-img {
+        width: 100%;
+    }
+    .truck_message {
+        width: 100%;
+        text-align: center;
+    }
+    .truck_message p {
+        margin: 10% 0;
+        width: 100%;
+        text-align: center;
+    }
+    .our_services_2 {
+        display: inline-block;
+    }
+    .money-img {
+        width: 100%;
+    }
+    .money-message {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .money-message p {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .phone_message {
+        display: block;
+    }
+    .our_services_2 {display: none;}
+    .our_services_3 {
+        display: block;
+        width: 100%;
+    }
+    .trash-img {
+        width: 100%;
+    }
+    .trash-message {
+        width: 100%;
+    }
+    .trash-message p {
+        width: 100%;
+        margin: 0;
+    }
+    .contact {
+        width: 100%;
+        text-align: center;
+    }
+    .form-contact button {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,114 @@
+* {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: #f0f0f5;
+}
+#about {
+    width:100%;
+    margin: 0 auto;
+    background-color: #f0f0f5;
+}
+header {
+    margin: 25px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.banner {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    color: #1c0327;
+    transition: 0.4s;
+}
+.banner:hover {
+    color: #1cf152;
+}
+header a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.2s;
+    margin-right: 30px;
+}
+header a:hover {
+    color: #1cf152;
+}
+header i{
+    align-items: center;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.page-principal {
+    border-top: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+}
+.page-principal h1 {
+    font-size: 60px;
+    color: #07000a;
+    margin: 80px 0;
+}
+.page-principal .card {
+    margin: 100px;
+}
+#name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1c0327;
+}
+.card img {
+    width: 25%;
+    height: auto;
+}
+.card h3 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #07000a;
+}
+.card p {
+    margin-top: 50px;
+    margin-left: 35%;
+    width: 30%;
+    text-align: center;
+}
+.copy {
+    width: 100%;
+    background-color: #fff;
+    height: 25px;
+    border-radius: 8px;
+}
+.copy p {
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 5px;
+}
+.copy p a {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+}
+@media (max-width: 800px) {
+    header {
+        align-items: center;
+    }
+    .page-principal {
+        width: 100%;
+    }
+    .card p {
+        width: 100%;
+        margin-left: 0;
+        font-size: 22px;
+    }
+    #name {
+        width: 100%;
+        font-size: 45px;
+    }
+    .card img {
+        width: 100%;
+        height: 250px;
+    }
+}
