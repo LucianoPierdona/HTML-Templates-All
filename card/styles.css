@@ -1,0 +1,51 @@
+* {
+    overflow: hidden;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.card {
+    text-align: center;
+    width: 15rem;
+    border-radius: 1.2rem;
+    background: linear-gradient(90deg, #7fff7b, #59e754);
+    color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
+    0 2px 2px rgba(0,0,0,0.1), 
+    0 4px 4px rgba(0,0,0,0.1), 
+    0 8px 8px rgba(0,0,0,0.1),
+    0 16px 16px rgba(0,0,0,0.1);
+    padding: 3.5rem;
+}
+.card h1 {
+    margin-top: -1rem;
+    font-size: 2.5rem;
+}
+.card p {
+    margin-top: -1.9rem;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+.card a {
+    background: #fff;
+    color: #7fff7b;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .8rem 1.8rem;
+    border-radius: .8rem 1.2rem;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
+    0 1px 1px rgba(0,0,0,0.1), 
+    0 1px 1px rgba(0,0,0,0.1), 
+    0 5px 5px rgba(0,0,0,0.1),
+    0 13px 13px rgba(0,0,0,0.1);
+    transition: background-color 0.2s;
+}
+.card a:hover {
+    color: #fff;
+    background: #7fff7b;
+}
